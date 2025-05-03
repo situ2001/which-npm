@@ -1,5 +1,11 @@
 # which-npm
 
+## 1.0.0
+
+### Major Changes
+
+- ebd5ce5: Initial release
+
 ## 0.0.4
 
 ### Patch Changes
