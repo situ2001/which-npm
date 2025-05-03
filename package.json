@@ -1,7 +1,7 @@
 {
   "name": "which-npm",
   "version": "0.0.3",
-  "description": "Locate the package.json file that a specific file or directory belongs to",
+  "description": "A command-line utility that helps you locate the package.json file that a specific file or directory belongs to",
   "main": "index.js",
   "bin": {
     "which-npm": "./bin/which-npm.js"
