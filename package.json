@@ -1,0 +1,37 @@
+{
+  "name": "which-npm",
+  "version": "0.0.1",
+  "description": "Locate the package.json file that a specific file or directory belongs to",
+  "main": "index.js",
+  "bin": {
+    "which-npm": "./bin/which-npm.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publish": "pnpm build && pnpm -r publish --access public"
+  },
+  "keywords": [],
+  "author": "situ2001 <yongcong2001@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/situ2001/which-npm.git"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
+  "devDependencies": {
+    "@changesets/cli": "^2.29.2",
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "commander": "^13.1.0",
+    "read-package-up": "^11.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
