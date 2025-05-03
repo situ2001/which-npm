@@ -1,5 +1,11 @@
 # which-npm
 
+## 0.0.4
+
+### Patch Changes
+
+- 0355c5c: update readme and description.
+
 ## 0.0.3
 
 ### Patch Changes
