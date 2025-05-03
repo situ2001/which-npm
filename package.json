@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "build": "tsc",
-    "publish": "pnpm build && pnpm publish --access public"
+    "npm-publish": "pnpm build && pnpm publish --access public"
   },
   "keywords": [],
   "author": "situ2001 <yongcong2001@outlook.com>",
