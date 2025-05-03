@@ -1,5 +1,11 @@
 # which-npm
 
+## 1.0.1
+
+### Patch Changes
+
+- ee86c14: fix: add shebang to bin for proper execution
+
 ## 1.0.0
 
 ### Major Changes
