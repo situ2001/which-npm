@@ -14,7 +14,19 @@
     "build": "tsc",
     "npm-publish": "pnpm build && pnpm publish --access public"
   },
-  "keywords": [],
+  "keywords": [
+    "npm",
+    "package.json",
+    "finder",
+    "monorepo",
+    "cli",
+    "utility",
+    "node",
+    "package",
+    "locate",
+    "path",
+    "directory"
+  ],
   "author": "situ2001 <yongcong2001@outlook.com>",
   "repository": {
     "type": "git",
